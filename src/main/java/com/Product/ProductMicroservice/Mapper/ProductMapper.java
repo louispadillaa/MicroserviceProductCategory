@@ -1,10 +1,10 @@
-package com.Product.ProductMicroservice.ProductCore.Mapper;
+package com.Product.ProductMicroservice.Mapper;
 
-import com.Product.ProductMicroservice.ProductCore.Entity.Category;
-import com.Product.ProductMicroservice.ProductCore.Entity.Product;
-import com.Product.ProductMicroservice.ProductCore.Request.ProductRequest;
-import com.Product.ProductMicroservice.ProductCore.Response.ProductPurchaseResponse;
-import com.Product.ProductMicroservice.ProductCore.Response.ProductResponse;
+import com.Product.ProductMicroservice.Entity.Category;
+import com.Product.ProductMicroservice.Entity.Product;
+import com.Product.ProductMicroservice.Request.ProductRequest;
+import com.Product.ProductMicroservice.Response.ProductPurchaseResponse;
+import com.Product.ProductMicroservice.Response.ProductResponse;
 import org.springframework.stereotype.Service;
 
 @Service

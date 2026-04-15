@@ -1,12 +1,12 @@
-package com.Product.ProductMicroservice.ProductCore.Request;
+package com.Product.ProductMicroservice.Request;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
-public record ProductProductRequest(
+public record ProductPurchaseRequest(
 
         @NotNull(message = "product is mandatory")
-        Integer productId,
+        Long productId,
 
         @Positive(message = "Quantity is mandatory")
         double quantity

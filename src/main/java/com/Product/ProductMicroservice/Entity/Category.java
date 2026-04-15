@@ -1,4 +1,4 @@
-package com.Product.ProductMicroservice.ProductCore.Entity;
+package com.Product.ProductMicroservice.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

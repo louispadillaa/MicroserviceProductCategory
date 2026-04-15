@@ -1,10 +1,7 @@
-package com.Product.ProductMicroservice.ProductCore.Entity;
+package com.Product.ProductMicroservice.Entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.math.BigDecimal;
 
@@ -12,12 +9,14 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Builder
 @Data
+@Getter
+@Sett
 @Entity
 public class Product {
 
     @Id
     @GeneratedValue
-    private Integer id;
+    private Long id;
     private String name;
     private String description;
     private double availableQuantity;

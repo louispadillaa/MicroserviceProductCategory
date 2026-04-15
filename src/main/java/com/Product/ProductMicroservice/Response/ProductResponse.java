@@ -1,9 +1,9 @@
-package com.Product.ProductMicroservice.ProductCore.Response;
+package com.Product.ProductMicroservice.Response;
 
 import java.math.BigDecimal;
 
 public record ProductResponse(
-        Integer id,
+        Long id,
         String name,
         String description,
         double availableQuantity,

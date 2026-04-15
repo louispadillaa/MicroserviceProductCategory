@@ -1,4 +1,4 @@
-package com.Product.ProductMicroservice.ProductCore.Request;
+package com.Product.ProductMicroservice.Request;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Positive;
 import java.math.BigDecimal;
 
 public record ProductRequest(
-        Integer id,
+        Long id,
 
         @NotNull(message = "Product name is required")
         String name,
